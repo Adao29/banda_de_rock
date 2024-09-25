@@ -46,3 +46,10 @@ ul{
     justify-content: space-around;
     height: 15vh;
 }
+
+li a:hover{
+    font-size: 18px;
+    font: chartreuse;
+    border-radius: 20px;
+    background-color: deepskyblue;
+}
