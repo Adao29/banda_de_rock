@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#topo{
+    background-color: indigo;
+    width: 100%;
+    height: 15vh;
+}
+
+#menu{
+    background-color: aqua;
+    width: 100%;
+    height: 10vh;
+}
+
+#principal{
+    background-color: rgb(240, 95, 11);
+    width: 70%;
+    height: 60vh;
+}
+
+#patrocinio{
+    background-color: rgb(230, 16, 16);
+    width: 30%;
+    height: 60vh;
+}
+
+#rodape{
+    background-color: rgb(51, 221, 9);
+    width: 100%;
+    height: 15vh;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    height: 15vh;
+}
