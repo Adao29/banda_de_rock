@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+#container {
+    border-width: medium;
+    border-style: solid;
+    width: 90vw;
+    height: 100vh;
+    margin:0 auto;
+    background-color: rgb(13, 240, 228);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2vh;
+}
+
+#topo {
+    width: 85vw;
+    border-width: medium;
+    border-style: solid;
+    height: 15vh;
+    margin: 0 auto;
+    border-radius: 20px ;
+    margin-top: 2vh;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#topof1 {
+    width: 30%;
+    height: 90%;
+    background-color: rgb(17, 132, 240);
+    border-width: thin;
+    border-style: solid;
+    border-radius: 100px;
+}
+
+#topof2 {
+    width: 60%;
+    height: 90%;
+    background-color: rgb(4, 11, 70);
+    border-width: thin;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#main {
+    margin:3vh auto;
+    width: 85vw;
+    height: 55vh;
+    background-color: rgb(21, 214, 54);
+    border-style: solid;
+    border-width: medium;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.mainfilho {
+    width: 40%;
+    height: 35%;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 10px;
+    background-color: rgb(206, 155, 14);
+}
+
+#footer1 {
+    width: 40vw;
+    height: 20vh;
+    background-color: darkred;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+#footer2 {
+    width: 40vw;
+    height: 20vh;
+    background-color: fuchsia;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 30px;
+}
